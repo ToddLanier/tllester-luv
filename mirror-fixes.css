@@ -46,20 +46,6 @@ html, body {
   min-height: 100vh;
 }
 
-/* Restore background decoration SVGs on first-level themed pages.
-   These SVGs are inlined with style="display:none" because the original
-   Gatsby site revealed them via client-side JS. The static mirror has no
-   JS runtime, so we force them visible here. Scoped to icon-container
-   children only — other display:none SVGs (hover/interactive items on
-   other pages) stay hidden. */
-/* .heart-icon-container > svg,
-.leaf-icon-container > svg,
-.spaceship-icon-container > svg,
-.firefly-icon-container > svg,
-.ankh-icon-container > svg,
-.hummingbird-icon-container > svg {
-  display: block !important;
-} */
-
-/* Backdrop images are set via inline script in each themed page.
-   See the script tag before </body> in leaf, spaceship, firefly, ankh, hummingbird. */
+.page-menu li {
+  margin: 0 10px;
+}
