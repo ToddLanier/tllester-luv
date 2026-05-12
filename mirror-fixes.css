@@ -1,0 +1,41 @@
+/* mirror-fixes.css
+   Patches layout issues in the static mirror that were handled at runtime
+   by the Gatsby/React client in the original site. */
+
+/* Gatsby image wrappers use inline-block + a fixed width set by React JS.
+   Without the JS, we need to make them block-level and fill their container.
+   The inner spacer span uses padding-bottom:% for aspect ratio — this only
+   works correctly when the parent is display:block (not inline-block). */
+.gatsby-image-wrapper,
+.inline-gatsby-image-wrapper {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* The aspect-ratio spacer span — must also be block so padding-bottom %
+   computes against the parent block width, not inline content width. */
+.gatsby-image-wrapper > span,
+.inline-gatsby-image-wrapper > span {
+  display: block !important;
+  width: 100% !important;
+}
+
+/* Gallery containers — ensure they don't overflow the post body */
+.wp-block-gallery,
+.blocks-gallery-grid {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.blocks-gallery-item figure {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* General safety net for all images in post and page bodies */
+.post-body img,
+.page-body img {
+  max-width: 100%;
+  height: auto;
+}

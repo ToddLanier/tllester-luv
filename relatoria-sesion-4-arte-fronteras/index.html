@@ -1,0 +1,715 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.4af25572789f92bf8efa.css" id="gatsby-global-css">.inline-gatsby-image-wrapper,.inline-gatsby-image-wrapper span{display:inline-block}@font-face{font-family:Ubuntu;src:url(../static/Ubuntu-Regular-2505bfbd9bde14a7829cc8c242a0d25c.ttf) format("ttf");font-weight:400;font-style:normal}body,html{position:relative;width:100%;height:100%;margin:0;padding:0;font-family:Ubuntu,sans-serif;font-size:20px}header{display:flex;justify-content:space-between;width:1100px;margin:50px auto}.menu-open{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAsCAYAAAAXb/p7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC7SURBVHgB7dPhDYIwEAXgR8J/cQI7giM4gqO5gTqJKzhCmYA6Qb2Ld1iIJqIx8ON9ycsR0rQXrgBERERERPS9ChNlIEhp8KwryVqysSWNxYXiORbPydJKOqtRGrriXYP5sfF+dKi+27447J+0ybM0d/DGdpKjpJPkhUS/Kmob2QXLo+NHjeF9mZPfSR2v3seTvtQGoyXgN3FU/UDXWtXR3Yq1mlQN1/b6n8RGXeaTRpJtHkFERERERDTdHSoScHZVkyUmAAAAAElFTkSuQmCC)}.menu-closed,.menu-open{width:40px;height:44px;cursor:pointer}.menu-closed{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAsCAYAAAAXb/p7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAF5SURBVHgB7ZnhTcMwEIVfUP8DE+AN6AgdgREYgU3KBoUJYIOICegGdSdoOkG4o2dkIgeB8k5YbT/pyY5V2a937tVugYn0wFLUi95FD6gNMdWawaQ5iFxgOt3geQkiDIP7wfNCongFEgyDJe5BgmEwFsYWIOEVwVuQ8IpgYO1Drwgq1RjsRsbPBn9LB0dOwqArkw025TKjUCLrGcHqDdaDfGvsBmfCHiRm+COycsChxqX2cuR1rXVDNhyzfmfainbWRtnT63yeZjCpLnhni16LbszEvLCYJ2ryWcw9JmN6yFyVUvWP0qhiZilrUR+fVUD3IO14PpG0JzW9uh+fdFANRlMAl1d8r4VbazV16R4TTV0zUje/PiSW6lxjxKxN73pTmLhBLYxs8gACx39Y+IHznaQKWAZLJSKAgKdBCiedYgosgxFOsAzu4QTL4BpOeKY4gkD1EaRRuC4E1IQYevG4djIL9VvWry/lemUVbSyCK9RIf/htmvpP0wf/7MZSQcoqgQAAAABJRU5ErkJggg==)}.menu-container{z-index:900;position:absolute;left:0;right:0;background-color:#fff;margin-top:120px;height:440px;padding:120px 0}.menu{color:#ed1c24;margin:auto 0}.menu a{color:#ed1c24;text-decoration:none}.menu>nav{display:inline-flex;justify-content:center;width:100%;font-size:24px}.page-menu{height:60px;font-weight:700;margin:0 auto}.page-menu li{list-style-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAALCAYAAACtWacbAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACBSURBVHgBdZBhDYBACIX5YYCLYAQjGMEoNjCCEbwINvAaOBNcBG1wPjbYGCLbNwZ7wLsjctGIVtA401+IgKna61CcyA+4QDH6YiczuM0GZY7O9LzVCSsYrGgJtjG7CjZp8OnJCApIJE32NMlAMh4Peyo5f9l/Q/SI8bMpECX1x/ULQ1leLi3kjzAAAAAASUVORK5CYII=);margin-left:10px}.page-menu li:first-child{list-style-type:none;list-style-image:none}.page-menu li>a:hover{text-decoration:underline}.main-menu{height:60px}.main-menu>a{margin:0 25px}.main-menu img{margin:15px auto}footer{display:flex;justify-content:space-between;width:1100px;margin:50px auto}.homegrid{width:480px;margin:0 auto 150px;display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(3,1fr);grid-column-gap:2px;grid-row-gap:2px;transform:rotate(45deg)}.homegrid>div{width:120px;height:120px;background-color:#ed1c24}.homegrid>div,.homegrid>div a{text-decoration:none}.homegrid1{grid-area:1/3/2/4}.homegrid2{grid-area:2/1/3/2}.homegrid3{grid-area:2/2/3/3}.homegrid4{grid-area:2/3/3/4}.homegrid5{grid-area:2/4/3/5}.homegrid6{grid-area:3/3/4/4}.homegrid-icon{margin:auto;transform:rotate(-45deg)}.text{color:#fff;font-size:18px;font-weight:800;text-align:center;vertical-align:middle;line-height:120px}.grid-item-title{transform:rotate(45deg);width:120px;height:120px;display:flex;align-items:center;justify-content:center}.item-title{display:inline-block;text-align:center;font-size:14px;line-height:14px;margin:0 auto;width:100%}.heartgrid{width:480px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(3,1fr);grid-column-gap:2px;grid-row-gap:2px;transform:rotate(-45deg)}.heartgrid>a{width:120px;height:120px;background-color:#e91e63;text-decoration:none;text-align:center;vertical-align:middle;line-height:120px}.heart-item-title{transform:rotate(45deg);width:120px;height:120px;display:flex;align-items:center;justify-content:center}.heartgrid1{grid-area:1/3/2/4}.heartgrid2{grid-area:2/1/3/2}.heartgrid3{grid-area:2/2/3/3}.heartgrid4{grid-area:2/3/3/4}.heartgrid5{grid-area:2/4/3/5}.heartgrid6{grid-area:3/2/4/3}.heart-icon-container{position:absolute;top:430px;right:0;width:434px;height:321px;display:flex;align-items:center;justify-content:center}.heart-description-text{font-weight:700;font-size:14px;line-height:18px;width:263px;margin:87px auto;text-align:center}.hummingbirdgrid{width:480px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(3,1fr);grid-column-gap:2px;grid-row-gap:2px;transform:rotate(-45deg)}.hummingbirdgrid>a{width:120px;height:120px;background-color:#f35a02;text-decoration:none;text-align:center;vertical-align:middle;line-height:120px}.hummingbirdgrid1{grid-area:1/3/2/4}.hummingbirdgrid2{grid-area:1/4/2/5}.hummingbirdgrid3{grid-area:2/1/3/2}.hummingbirdgrid4{grid-area:2/2/3/3}.hummingbirdgrid5{grid-area:2/3/3/4}.hummingbirdgrid6{grid-area:3/3/4/4}.hummingbird-icon-container{position:absolute;top:200px;left:90px;width:434px;height:321px;display:flex;align-items:center;justify-content:center}.hummingbird-description-text{font-weight:700;font-size:14px;line-height:18px;width:228px;margin:42px auto 0;padding:50px 44px 44px;text-align:center;border-radius:75%}.leafgrid{width:480px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(3,1fr);grid-column-gap:2px;grid-row-gap:2px;transform:rotate(-45deg)}.leafgrid>a{width:120px;height:120px;background-color:#353132;text-decoration:none;text-align:center;vertical-align:middle;line-height:120px}.leafgrid1{grid-area:1/1/2/2}.leafgrid2{grid-area:2/1/3/2}.leafgrid3{grid-area:2/2/3/3}.leafgrid4{grid-area:2/3/3/4}.leafgrid5{grid-area:2/4/3/5}.leafgrid6{grid-area:3/3/4/4}.leaf-icon-container{position:absolute;top:0;right:160px;width:434px;height:321px;display:flex;align-items:center;justify-content:center}.leaf-description-text{font-weight:700;font-size:14px;line-height:18px;width:241px;margin:88px auto 0;padding:50px 44px 44px;text-align:center;border-radius:75%}.spaceshipgrid{width:360px;margin:100px auto;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(3,1fr);grid-column-gap:2px;grid-row-gap:2px;transform:rotate(-45deg)}.spaceshipgrid>a{width:120px;height:120px;background-color:#ffc700;text-decoration:none;text-align:center;vertical-align:middle;line-height:120px}.spaceshipgrid1{grid-area:1/1/2/2}.spaceshipgrid2{grid-area:1/2/2/3}.spaceshipgrid3{grid-area:1/3/2/4}.spaceshipgrid4{grid-area:2/2/3/3}.spaceshipgrid5{grid-area:3/2/4/3}.spaceshipgrid6{grid-area:3/3/4/4}.spaceship-icon-container{position:absolute;top:430px;right:0;width:434px;height:321px;display:flex;align-items:center;justify-content:center}.spaceship-description-text{font-weight:700;font-size:14px;line-height:18px;width:252px;margin:63px auto 0;padding:50px 44px 44px;text-align:center;border-radius:75%}.fireflygrid{width:480px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(3,1fr);grid-column-gap:2px;grid-row-gap:2px;transform:rotate(64deg)}.fireflygrid>a{width:120px;height:120px;background-color:#d0f63c;font-size:12px;text-decoration:none;text-align:center;vertical-align:middle;line-height:120px}.fireflygrid1{grid-area:1/1/2/2}.fireflygrid2{grid-area:1/2/2/3}.fireflygrid3{grid-area:2/2/3/3}.fireflygrid4{grid-area:2/3/3/4}.fireflygrid5{grid-area:2/4/3/5}.fireflygrid6{grid-area:3/4/4/5}.firefly-item-title{transform:rotate(-64deg);width:120px;height:120px}.firefly-icon-container,.firefly-item-title{display:flex;align-items:center;justify-content:center}.firefly-icon-container{position:absolute;top:240px;right:60px;width:434px;height:321px}.firefly-description-text{font-weight:700;font-size:14px;line-height:18px;width:252px;margin:63px auto 0;padding:50px 44px 44px;text-align:center;border-radius:75%}.ankhgrid{width:360px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(3,1fr);grid-column-gap:2px;grid-row-gap:2px;transform:rotate(-45deg)}.ankhgrid>a{width:120px;height:120px;background-color:#ece3c9;text-decoration:none;text-align:center;vertical-align:middle;line-height:120px}.ankhgrid1{grid-area:1/2/2/3}.ankhgrid2{grid-area:1/3/2/4}.ankhgrid3{grid-area:2/1/3/2}.ankhgrid4{grid-area:2/2/3/3}.ankhgrid5{grid-area:3/2/4/3}.ankhgrid6{grid-area:3/3/4/4}.ankh-icon-container{position:absolute;top:350px;right:0;width:434px;height:321px;display:flex;align-items:center;justify-content:center}.ankh-description-text{font-weight:700;font-size:14px;line-height:18px;width:199px;margin:69px auto 0;padding:50px 44px 44px;text-align:center;border-radius:75%}.page{top:0;width:100%;display:flex;justify-content:center}.page-previous{padding:45px;text-align:right;display:flex;flex-direction:column;justify-content:space-between}.page-social-icons{display:flex;margin-top:500px}.page-social-icons>a{margin-right:10px}.page-body{width:850px;padding:0 80px;font-size:18px}.page-body h1{font-size:34px;margin-bottom:0}.page-body h2{font-size:18px;margin:10px 0 50px}.page-body p{line-height:30px}.page-next{padding:45px;display:flex;flex-direction:column;justify-content:space-between;height:600px}.post{position:absolute;top:0;width:100%;display:flex;justify-content:center}.post-previous{padding:45px;text-align:right;justify-content:space-between;height:600px}.post-previous,.social-icons{display:flex;flex-direction:column}.social-icons a{margin-bottom:.5em}.post-body{width:850px;background-color:#fffffa;padding:140px 80px;font-size:18px}.post-body h1{font-size:34px;margin-bottom:0}.post-body h2{font-size:18px;margin:10px 0 50px}.post-body p{line-height:30px}.post-next{padding:45px;flex-direction:column;height:600px}.post-next,.post-tag-container{display:flex;justify-content:space-between}.post-tag-container{flex-flow:column}.wp-block-gallery ul{list-style:none;margin:0 0 -1.6rem}.blocks-gallery-grid,.wp-block-gallery{display:flex;flex-wrap:wrap;list-style-type:none;padding:0;margin:0}.blocks-gallery-item{margin:0 16px 16px 0;display:flex;flex-grow:1;flex-direction:column;justify-content:center;position:relative}.pagination{width:100%;display:grid;grid-auto-flow:column;justify-items:center;align-items:center}.pagination li{list-style:none;display:inline-block}.pagination li:not(.next):not(.previous) a{padding:15px;display:block}.pagination .next{justify-self:end}.pagination .previous{justify-self:start}</style><meta name="generator" content="Gatsby 2.32.11"/><link as="script" rel="preload" href="../webpack-runtime-9986efa098f82a8f6ee0.js"/><link as="script" rel="preload" href="../framework-c343874b8a4718d4c3e1.js"/><link as="script" rel="preload" href="../app-5d1f25097fc46a42ca8c.js"/><link as="script" rel="preload" href="../styles-407fe62976dc5310c43e.js"/><link as="script" rel="preload" href="../ccd757bf9950c2cee606708818beb9ace981f76f-1eeec8863f0242150bea.js"/><link as="script" rel="preload" href="../component---src-templates-single-post-js-b475fe98ec991257b7ef.js"/><link as="fetch" rel="preload" href="../page-data/relatoria-sesion-4-arte-fronteras/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="../page-data/sq/d/2005293003.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="../page-data/app-data.json" crossorigin="anonymous"/><link rel="stylesheet" href="../mirror-fixes.css"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div><div style="display:none"> <header></header></div><div><article class="post" style="background-color:#2a3c91"><div class="post-previous"><a href="https://luvtilithurts.co/firefly"><img src="../static/18e5e1e83d6db370a34b3cd94e4f0cb3/firefly-page.png"/></a><div class="social-icons"><a href="http://www.facebook.com/share.php?u=undefined"><svg width="32" height="32" fill="none"><path d="M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0zm2.667 30.4v-9.733H22c.267 0 .533-.2.667-.467L24 15.533c.067-.2 0-.4-.133-.6-.134-.2-.334-.266-.534-.266h-4.666v-4h4c.4 0 .666-.267.666-.667V5.333c0-.4-.266-.666-.666-.666h-8C13.6 4.667 12 5.4 12 7.333v7.334H8.667c-.4 0-.667.266-.667.666V20c0 .4.267.667.667.667H12V28c0 .4.267.667.667.667s.666-.267.666-.667v-8c0-.4-.266-.667-.666-.667H9.333V16h3.334c.4 0 .666-.267.666-.667v-8c0-1.2 1-1.333 1.334-1.333H22v3.333h-4c-.4 0-.667.267-.667.667v5.333c0 .4.267.667.667.667h4.467l-.934 3.333H18c-.4 0-.667.267-.667.667v10.6c-.466.067-.866.067-1.333.067-8.067 0-14.667-6.6-14.667-14.667S7.933 1.333 16 1.333 30.667 7.933 30.667 16c0 7.2-5.2 13.133-12 14.4z" fill="#d0f63c"></path></svg></a><a href="https://www.instagram.com/luvtilithurts"><svg width="32" height="32" fill="none"><path d="M26 0H5.867C2.6 0 0 2.667 0 6v4c0 .4.267.667.667.667h6.666c.4 0 .667-.267.667-.667s-.267-.667-.667-.667h-6V6c0-2.6 2-4.667 4.534-4.667H26c2.6 0 4.667 2.067 4.667 4.667v3.333h-6c-.4 0-.667.267-.667.667s.267.667.667.667h6.666c.4 0 .667-.267.667-.667V6c0-3.333-2.667-6-6-6zM31.333 12c-.4 0-.666.267-.666.667V26c0 2.6-2.067 4.667-4.667 4.667H6A4.638 4.638 0 011.333 26V12.667c0-.4-.266-.667-.666-.667S0 12.267 0 12.667V26c0 3.333 2.667 6 6 6h20c3.333 0 6-2.667 6-6V12.667c0-.4-.267-.667-.667-.667z" fill="#d0f63c"></path><path d="M8 17.334c0 4.4 3.6 8 8 8s8-3.6 8-8-3.6-8-8-8-8 3.6-8 8zm14.667 0C22.667 21 19.667 24 16 24s-6.667-3-6.667-6.666c0-3.667 3-6.667 6.667-6.667s6.667 3 6.667 6.667z" fill="#d0f63c"></path><path d="M10.667 17.333c0 2.934 2.4 5.334 5.333 5.334 2.933 0 5.333-2.4 5.333-5.334C21.333 14.4 18.933 12 16 12c-2.933 0-5.333 2.4-5.333 5.333zm9.333 0c0 2.2-1.8 4-4 4s-4-1.8-4-4 1.8-4 4-4 4 1.8 4 4zM23.333 7.333c1.134 0 2-.866 2-2 0-1.133-.866-2-2-2-1.133 0-2 .867-2 2 0 1.134.867 2 2 2zm0-2.666c.4 0 .667.267.667.667S23.733 6 23.333 6s-.666-.266-.666-.667c0-.4.266-.666.666-.666z" fill="#d0f63c"></path></svg></a></div><a href="../relatoria-sesion-3-arte-vih/index.html"><svg width="57" height="24" fill="none"><path d="M.94 10.94a1.5 1.5 0 000 2.12l9.545 9.547a1.5 1.5 0 102.122-2.122L4.12 12l8.486-8.485a1.5 1.5 0 10-2.122-2.122L.94 10.94zM57 10.5H2v3h55v-3z" fill="#d0f63c"></path></svg></a></div><div class="post-body"><h1>Relatoría Sesión #4 – Arte / Fronteras (ES/EN)</h1><h2>by <!-- -->Daniel Santiago Salguero</h2><div>
+<figure class="wp-block-image size-large"><span class="wp-image-6711 inline-gatsby-image-wrapper gatsby-image-wrapper" style="position:relative;overflow:hidden;max-width:100%;width:906px" data-reactroot=""><span aria-hidden="true" style="width:100%;padding-bottom:113.21585903083701%"></span><img aria-hidden="true" src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAXABQDASIAAhEBAxEB/8QAGgABAAIDAQAAAAAAAAAAAAAAAAMEAQIFBv/EABYBAQEBAAAAAAAAAAAAAAAAAAABA//aAAwDAQACEAMQAAABiueflmvbc0X9y5ZB/8QAHBAAAwACAwEAAAAAAAAAAAAAAAECAxQEESES/9oACAEBAAEFAp9FHjwOiXSF2yM3wlw5NJJ6Mn//xAAXEQADAQAAAAAAAAAAAAAAAAAAAhMQ/9oACAEDAQE/AasWff/EABYRAQEBAAAAAAAAAAAAAAAAABEAEP/aAAgBAgEBPwEjf//EABwQAAICAgMAAAAAAAAAAAAAAAABESECMSJBgf/aAAgBAQAGPwJctjvGiVmiSvSDtGzZ/8QAHxABAAICAAcAAAAAAAAAAAAAAQARIUExUWGBoeHw/9oACAEBAAE/ISSAvxm2UwImrjABSJDJeiXoUze469HPfmJlJvih7lm/3ef/2gAMAwEAAgADAAAAEGDQAP/EABoRAQABBQAAAAAAAAAAAAAAAAEAEBEhMaH/2gAIAQMBAT8QX2wLF+V//8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAQ/9oACAECAQE/EBHf/8QAHhABAQACAgIDAAAAAAAAAAAAAREAIUFxMWFRocH/2gAIAQEAAT8Qv/EWKk7xDdoYrPmGRkRogfeCNryaeMEpDRwMhJqgf11ghlsAE6R/eFAF6AIXftnmodi4/9k=" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:0;transition-delay:500ms"/><picture><source srcSet="../static/31a497bd7535503b4e4d852b08cba47d/7087b/imagen-sesion-4-1200x1357-1.jpg 227w,../static/31a497bd7535503b4e4d852b08cba47d/6b25a/imagen-sesion-4-1200x1357-1.jpgg 453w../static/31a497bd7535503b4e4d852b08cba47d/3d24f/imagen-sesion-4-1200x1357-1.jpgpg 906../static/31a497bd7535503b4e4d852b08cba47d/5a523/imagen-sesion-4-1200x1357-1.jpgjpg 1200w" sizes="(max-width: 906px) 100vw, 906px"/><img sizes="(max-width: 906px) 100vw, 906px" srcSet="../static/31a497bd7535503b4e4d852b08cba47d/7087b/imagen-sesion-4-1200x1357-1.jpg 227w,../static/31a497bd7535503b4e4d852b08cba47d/6b25a/imagen-sesion-4-1200x1357-1.jpgg 453w../static/31a497bd7535503b4e4d852b08cba47d/3d24f/imagen-sesion-4-1200x1357-1.jpgpg 906../static/31a497bd7535503b4e4d852b08cba47d/5a523/imagen-sesion-4-1200x1357-1.jpgjpg 1200w" src="../static/31a497bd7535503b4e4d852b08cba47d/3d24f/imagen-sesion-4-1200x1357-1.jpg" alt="" loading="eager" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 500ms"/></picture><noscript><picture><source srcset="../static/31a497bd7535503b4e4d852b08cba47d/7087b/imagen-sesion-4-1200x1357-1.jpg 227w,../static/31a497bd7535503b4e4d852b08cba47d/6b25a/imagen-sesion-4-1200x1357-1.jpgg 453w../static/31a497bd7535503b4e4d852b08cba47d/3d24f/imagen-sesion-4-1200x1357-1.jpgpg 906../static/31a497bd7535503b4e4d852b08cba47d/5a523/imagen-sesion-4-1200x1357-1.jpgjpg 1200w" sizes="(max-width: 906px) 100vw, 906px" /><img loading="eager" sizes="(max-width: 906px) 100vw, 906px" srcset="../static/31a497bd7535503b4e4d852b08cba47d/7087b/imagen-sesion-4-1200x1357-1.jpg 227w,../static/31a497bd7535503b4e4d852b08cba47d/6b25a/imagen-sesion-4-1200x1357-1.jpgg 453w../static/31a497bd7535503b4e4d852b08cba47d/3d24f/imagen-sesion-4-1200x1357-1.jpgpg 906../static/31a497bd7535503b4e4d852b08cba47d/5a523/imagen-sesion-4-1200x1357-1.jpgjpg 1200w" src="../static/31a497bd7535503b4e4d852b08cba47d/3d24f/imagen-sesion-4-1200x1357-1.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></span></figure>
+
+
+
+<p><strong>Laboratorio Luciérnagas</strong><br>Relatoría 27 Julio</p>
+
+
+
+<p><strong>sesión #4   </strong><br>Arte y fronteras políticas</p>
+
+
+
+<p>Invitadas:<br>Melissa Guevara &#8211; Artista<br>Laura Echeverri &#8211; Abogada derechos humanos</p>
+
+
+
+<p>Relatoría:</p>
+
+
+
+<p>Melisa Guevara es artista Salvadoreña. Habló del libro “Luciérnagas en el Mozote” que contiene narraciones y testimonios sobre la masacre (1981) mas grande que ha sucedió en américa latina, 900 muertos perpetrados por el ejercito.</p>
+
+
+
+<p>También nos habla del proyecto 24 Horas de fronteras abiertas, realizado por el colectivo del que hace parte, comprendido por dos colombianos, dos salvadoreños y un salvadoreño en NY. El proyecto se trata de grabar 24 capítulos relacionados cada uno a diferentes perspectivas sobre fronteras y migración, visto desde el punto de vista académico, artístico y de los inmigrantes mismos.&nbsp;</p>
+
+
+
+<p>Como parte de este proyecto los miembros del grupo viajaron a la frontera con Venezuela y rehicieron el camino que recorren los inmigrantes camino al interior del país, atravesando inclusive un frío páramo, una caminada inimaginablemente difícil. Nos contaron como en muchos puntos los caminantes son maltratados o ignorados producto de la xenofobia.&nbsp;</p>
+
+
+
+<p>Nos cuenta que en el Salvador también hay bastante desplazamiento interno. El problema grabe ahora son las pandillas. Nos cuenta que hay muchos imaginarios fantasmas sobre el país, lo que se cree, se imagina, se ha oído, lejanos a la realidad.</p>
+
+
+
+<p>Se dice que debería existir un manual para migrar, si no estoy mal se habla de esto como posible proyecto artístico utópico.</p>
+
+
+
+<p>Poniéndonos en contexto en centro américa nos cuenta que en Costa Rica no hay ejercito.</p>
+
+
+
+<p>Alguien dice: lo que tenemos los artistas es tiempo para pensar, para apoyar y dar opiniones. Ayudamos a pensar de una forma diferente.</p>
+
+
+
+<p>El migrante no tiene opciones. En los ochentas en la guerra de El Salvador se da una ola de migración hacia USA. Nacen los Maras Salvatruchos entre pandillas de otros países en USA.</p>
+
+
+
+<p>Melisa y sus compañeros tienen un espacio de trabajo colaborativo. Son dos historiadores y dos artistas visuales.&nbsp;</p>
+
+
+
+<p>Se comentan trabajos:</p>
+
+
+
+<ul><li>Manifiestos de la reimaginación (imaginarios regionales)</li><li>Territorios conceptuales: ecología de las interfaces, matemáticas, para crear manifiestos. teniendo en cuenta el texto Capitalismo y Esquizofrenia de Deleuze y Guattari.</li></ul>
+
+
+
+<p>Generan imágenes desde la poética, el sexo, la violencia, desde términos como orgía o pogo.&nbsp;</p>
+
+
+
+<p>Se conocieron como equipo de investigación. Melisa también pertenece a otro colectivo: The Fire Theory.&nbsp;</p>
+
+
+
+<p>Se promedia que hay 3´400.000 de venezolanos en Colombia.&nbsp;</p>
+
+
+
+<p>Se promedia que ante las circunstancias, 300.000 personas que anteriormente habían emigrado desde Colombia a Venezuela han regresado ante la crisis.&nbsp;</p>
+
+
+
+<p>Históricamente las políticas migratorias en Colombia han sido cerradas.</p>
+
+
+
+<p>Todos los venezolanos sueñan con volver a su país.</p>
+
+
+
+<p>Se comenta al película estadounidense “un día sin mexicanos”.</p>
+
+
+
+<p>Laura Echeverri, abogada experta en derechos humanos nos aclara:</p>
+
+
+
+<p>Migrante es cualquier persona que vive fuera de su país de origen.</p>
+
+
+
+<p>Refugiado es quien sale por emergencia.&nbsp;</p>
+
+
+
+<p>Existen casos de</p>
+
+
+
+<p>Migración interna&nbsp; (caso urgente en Colombia)</p>
+
+
+
+<p>Desplazamiento forzado, que es una condición.</p>
+
+
+
+<p>Desplazamiento interurbano.&nbsp;</p>
+
+
+
+<p>Los colombianos hemos sido refugiados en otros países en las olas de violencia y crisis económicas de los años noventas y dosmiles.</p>
+
+
+
+<p>A los venezolanos se les está dando un permiso provisional de permanencia por dos años. Se llama el PEP. Les permite trabajar. Lo dan solo a personas con pasaporte y domicilio fijo, lo cual es una grande imposibilidad para ellos pues mucho carecen de esas condiciones. Los pasaportes para venezolanos están alrededor de us$300, en Venezuela mientras el salario mínimo es de US$4.00</p>
+
+
+
+<p><a href="https://www.fupad.org/"><strong>FUPAD</strong></a>&nbsp;es una organización que trabaja por el desarrollo socioeconómico de las comunidades y le apuesta a la reconstrucción del territorio colombiano.</p>
+
+
+
+<p>Laura trabaja en <a href="https://www.acnur.org/"><strong>ACNUR</strong></a> la agencia de la ONU para los refugiados.</p>
+
+
+
+<p>Nos contextualiza en la historia política reciente de Venezuela.</p>
+
+
+
+<p>En 1998 fue la elección de Hugo Chaves, militar, que había participado en una revolución que se dio en 1992. Fue reelegido presidente en el 2000, 2006 y 2012. A partir de 2013 entra Nicolás Maduro al poder.</p>
+
+
+
+<p>Venezuela sale de la convención Americana y deja de contribuir de la Convención Interamericana.&nbsp;</p>
+
+
+
+<p>Agosto 2015 declaración de emergencia.</p>
+
+
+
+<p>Mayo 2016 El departamento de atención de desastres de Colombia es el encargado de recibir la ola de migración.&nbsp;</p>
+
+
+
+<p>Hay varios grupos armados y formas de violencia en Venezuela: Garimbas, Redadas, Colectivos armados, Tupamaros, Megabandas desde las cárceles, guerrillas, militares, el ELN también está en Venezuela.</p>
+
+
+
+<p>Venezuela tiene una de las tazas de homicidio más altas del mundo. El 82% vive en pobreza extrema.&nbsp;</p>
+
+
+
+<p>En 2018 solo el 13% de la población con VIH en Venezuela recibe medicina.&nbsp;</p>
+
+
+
+<p>La condición de refugiados nace en la convención de 1951 como respuesta a la segunda guerra mundial.</p>
+
+
+
+<p>Declaración de Cartagena. Respuesta a conflictos de Centro América. &nbsp;</p>
+
+
+
+<p>Más de 20.000 niños nacidos en Colombia de padres venezolanos no tienen nacionalidad ya que los consulados venezolanos están cerrados indefinidamente. Este hecho cambió recientemente. <a href="https://www.nytimes.com/es/2019/08/06/colombia-ciudadania-hijos-venezolanos/?rref=collection%252Fsectioncollection%252Fnyt-es">https://www.nytimes.com/es/2019/08/06/colombia-ciudadania-hijos-venezolanos/?rref=collection%2Fsectioncollection%2Fnyt-es</a></p>
+
+
+
+<p>Nos preguntamos:</p>
+
+
+
+<p><strong>Y ¿Qué se puede hacer desde las artes?</strong></p>
+
+
+
+<p>Surgen ideas como estas:</p>
+
+
+
+<p>Llevar a otro lado el pensamiento y sus lógicas.</p>
+
+
+
+<p>Generar espacios de empatía</p>
+
+
+
+<p>Arte&nbsp;</p>
+
+
+
+<p>como complemento de lo humano político o apolítico.</p>
+
+
+
+<p>como medio de desahogo.</p>
+
+
+
+<p>como espacio de reflexión y respiro.</p>
+
+
+
+<p>Hablamos de una propuesta utópica, construir un espacio donde no haya fronteras. Pienso en el concepto TAZ de Hakim Bey <a href="https://es.wikipedia.org/wiki/Zona_temporalmente_aut%25C3%25B3noma">https://es.wikipedia.org/wiki/Zona_temporalmente_aut%C3%B3noma</a></p>
+
+
+
+<p>Camilo, que trabaja con las madres comunitarias de Bosa en Bogota dice:</p>
+
+
+
+<p>“Siempre quieres irte para Barranquilla, pero si te vas extrañas tu silla”</p>
+
+
+
+<p>comparte ideas:</p>
+
+
+
+<p>La frontera como límite nos limita.</p>
+
+
+
+<p>¿Qué se siente perder el lugar de uno?</p>
+
+
+
+<p>El pensamiento como frontera.</p>
+
+
+
+<p>Miedo a la usurpación del territorio.</p>
+
+
+
+<p>Algunos artistas referentes para el tema</p>
+
+
+
+<p>Enrique Ramírez (Chile)&nbsp;</p>
+
+
+
+<figure class="wp-block-image"><img src="/luvhurts-uploads/2019/10/Screen-Shot-2019-10-09-at-19.30.28.png" alt="" class="wp-image-1987"/></figure>
+
+
+
+<p>Cruzar un Muro (Crossing a Wall) es una película, inspirada en el artículo 13 de la Declaración Universal de Derechos Humanos, en la que afirma que &#8220;Toda persona tiene derecho a abandonar cualquier país, incluido el suyo, y regresar a su país&#8221;. . En esta película, una sala de espera, una oficina pública de asuntos de inmigración, ubicada en «algún lugar», es el escenario que converge todas las aspiraciones humanas de nuestro tiempo &#8230; La espera, la convicción, el anhelo y el derecho de todos a soñar. , viajar, cruzar, a la libertad de movimiento y residencia dentro de las fronteras de cada estado o al derecho de retorno a su país de origen &#8230; Todo esto se representa metafóricamente en este escenario de ficción y realidad.</p>
+
+
+
+<p>Olu Oguibe (Nigeria)&nbsp;</p>
+
+
+
+<figure class="wp-block-image"><img src="/luvhurts-uploads/2019/10/Screen-Shot-2019-10-09-at-19.30.36.png" alt="" class="wp-image-1988"/></figure>
+
+
+
+<p>“Monument to Strangers and Refugees”&nbsp;</p>
+
+
+
+<p>Santiago Sierra (España)</p>
+
+
+
+<figure class="wp-block-image"><img src="/luvhurts-uploads/2019/10/Screen-Shot-2019-10-09-at-19.30.44.png" alt="" class="wp-image-1989"/></figure>
+
+
+
+<p>“Los penetrados” estuvo dividido en ocho actos de sexo en vivo, cada uno tenía una combinación de género y etnia distinta. La idea era crear un mundo artificial que simulara las comunidades donde han ocurrido procesos de mestizaje.</p>
+
+
+
+<p>Artur Żmijewski (Polonia)</p>
+
+
+
+<figure class="wp-block-image"><img src="/luvhurts-uploads/2019/10/Screen-Shot-2019-10-09-at-19.30.50.png" alt="" class="wp-image-1990"/></figure>
+
+
+
+<p>&nbsp;Liliana Porter (Argentina)</p>
+
+
+
+<figure class="wp-block-image"><img src="/luvhurts-uploads/2019/10/Screen-Shot-2019-10-09-at-19.30.57.png" alt="" class="wp-image-1991"/></figure>
+
+
+
+<p>Hasan Sharif (Dubai)&nbsp;</p>
+
+
+
+<figure class="wp-block-image"><img src="/luvhurts-uploads/2019/10/Screen-Shot-2019-10-09-at-19.31.04.png" alt="" class="wp-image-1992"/></figure>
+
+
+
+<p>Sandalias y cable, 2009</p>
+
+
+
+<p>Teresa Margolles (México),</p>
+
+
+
+<figure class="wp-block-image"><img src="/luvhurts-uploads/2019/10/Screen-Shot-2019-10-09-at-19.31.14.png" alt="" class="wp-image-1993"/></figure>
+
+
+
+<p>La artista mexicana Teresa Margolles propone una profunda reflexión sobre el drama de la violencia machista, con la vista puesta en Bolivia y México, con la exposición &#8220;Sobre la sangre&#8221;.</p>
+
+
+
+<p>Mario Opazo (Colombia)</p>
+
+
+
+<figure class="wp-block-image"><img src="/luvhurts-uploads/2019/10/Screen-Shot-2019-10-09-at-19.31.22.png" alt="" class="wp-image-1994"/></figure>
+
+
+
+<p>MAPA MUDO | 2016 | INTERVENCIÓN ESCULTÓRICA</p>
+
+
+
+<p>Daniel Santiago Salguero (Colombia)</p>
+
+
+
+<figure class="wp-block-image"><img src="/luvhurts-uploads/2019/10/Screen-Shot-2019-10-09-at-19.31.30.png" alt="" class="wp-image-1995"/></figure>
+
+
+
+<p>Convención de territorios y desplazamientos. 2012</p>
+
+
+
+<p>De la mano de una abogada experta en derechos humanos redactamos un texto jurídico ficcional dónde se declara que en el año 2046 todos los habitantes de la tierra pueden desplazarse libremente por el territorio terrestre y asumir como lugar de residencia el lugar de su elección sin necesidad de visas ni permisos. El texto fue impreso en una placa y emplazado en el espacio público en Bogotá. Aquí acudo a las ficciones y a los juegos con el tiempo para darle la posibilidad de ser a algo que desde nuestro tiempo parece absolutamente ridículo. Este proyecto responde al sentimiento de impotencia de millones de personas a quienes les es negada la movilidad entre países.&nbsp;</p>
+
+
+
+<p>____________________________________________</p>
+
+
+
+<p><strong>Luciérnagas</strong><br>July 17th Report</p>
+
+
+
+<p><strong>session #4   </strong><br>Art and political borders</p>
+
+
+
+<p>Invitees:<br>Melissa Guevara &#8211; Artist<br>Laura Echeverri &#8211; Human Rights Lawyer</p>
+
+
+
+<p>Report:</p>
+
+
+
+<p>Melisa Guevara is a Salvadoran artist. She spoke of the book “Liciérnagas in Mozote,” which contains narrations and testimonies of the largest massacre (1981) that has occurred in Latin America, 900 people killed by the army.</p>
+
+
+
+<p>She also speaks to us about the 24 hours of open borders project, realized by the collective that she is part of, made up of two Colombians, two Salvadorans and one Salvadoran in NY. The project seeks to record 24 chapters, each one related to different perspectives on borders and migration, seen from an academic and artistic point of view, as well as from the immigrants themselves.</p>
+
+
+
+<p>As part of this project, the members of the group traveled to the border with Venezuela and retraced the path that immigrants make into the country, also going across cold moors, a walk that is unimaginably difficult. They told us about how at many points the walkers were mistreated or ignored as a result of xenophobia.&nbsp;</p>
+
+
+
+<p>She tells us that in El Salvador there is also a lot of internal displacement. The serious problem now are the gangs. She tells us that there are many imaginary ghosts about the country, what is believed, imagined, heard, far from reality.</p>
+
+
+
+<p>She says that there should exist a migration manual, it is spoken of as a possible utopic artistic project.</p>
+
+
+
+<p>As she brings us into the context of Central America, she tells us that Costa Rica does not have an army.</p>
+
+
+
+<p>Someone says: what we have as artists is time to think, support, and give our opinions. We help to think in a different way.</p>
+
+
+
+<p>The migrant does not have options. In the eighties during the war in El Salvador there is a wave of migration to the USA. the Maras Salvatruchos are born among the gangs and in other countries and the USA.</p>
+
+
+
+<p>Melisa and her partners have a space for collaborative work. They are two historians and two visual artists.</p>
+
+
+
+<p>Works are commented on:</p>
+
+
+
+<ul><li>Manifestos of the reimagination (regional imaginaries)</li><li>Conceptual territories: the ecology of interfaces, math, to create manifestos. having in mind the text Capitalism and Schizophrenia by Deleuze and Guattari.</li></ul>
+
+
+
+<p>They generate images ranging from poetics, sex, violence, to terms such as orgies and pogo.</p>
+
+
+
+<p>They met each other as a research team. Melisa is also part of another collective: The Fire Theory.</p>
+
+
+
+<p>It was estimated that there are about 3,400,000 Venezuelans in Colombia.</p>
+
+
+
+<p>It was estimated that due to the circumstances, 300,000 people who had emigrated from Colombia to Venezuela have returned because of the crisis.</p>
+
+
+
+<p>Historically, the immigration policies in Colombia have been enclosed.</p>
+
+
+
+<p>All Venezuelans dream of returning to their country.</p>
+
+
+
+<p>Someone comments on the USA film “un día sin mexicanos”</p>
+
+
+
+<p>Laura Echeverri, lawyer expert in human rights clarifies to us:</p>
+
+
+
+<p>Migrant is any person who lives outside of their country of origin.</p>
+
+
+
+<p>Refugee is who must leave due to an emergency</p>
+
+
+
+<p>There are cases of</p>
+
+
+
+<p>Internal migration (urgent case in Colombia)</p>
+
+
+
+<p>Forced displacement, which is a condition.</p>
+
+
+
+<p>Interurban displacement.</p>
+
+
+
+<p>Colombians have been refugees in other countries during the waves of violence and economic crises of the 90s and 2000s.</p>
+
+
+
+<p>Venezuelans are receiving a provisional permit to stay for two years. It is called the PEP. It allows them to work. It is only given to people with a passport and fixed residency, which makes it less possible for them as many do not meet these conditions. Venezuelan passports cost around US$300 in Venezuela, while the minimum wage is of US$4,00.</p>
+
+
+
+<p><a href="https://www.fupad.org/"><strong>FUPAD</strong></a>&nbsp;is an organization that works for the socioeconomic development of communities and aims at the reconstruction of the Colombian territory.</p>
+
+
+
+<p>Laura works at <a href="https://www.acnur.org/"><strong>ACNUR</strong></a>, the UN agency for refugees.</p>
+
+
+
+<p>She contextualizes us in the recent political history of Venezuela.</p>
+
+
+
+<p>In 1998 there was Huge Chaves’ election, a military man, who had participated in a revolution that took place in 1992. He was reelected as president in 2000, 2006 and 2012. From 2013 on, Nicolás Maduro is in power.</p>
+
+
+
+<p>Venezuela leaves the American convention and ceases to contribute to to the Interamerican Convention.</p>
+
+
+
+<p>August 2015 declaration of emergency.</p>
+
+
+
+<p>May 2016 the Department of attention to disasters in Colombia is in charge of receiving the wave of migration.</p>
+
+
+
+<p>There are many armed groups and types of violence in Venezuela: Garimbas, Redadas, armed Collectives, Tupamaros, Megabandas from jails, guerrillas, military people, the ELN is also in Venezuela.</p>
+
+
+
+<p>Venezuela has one of the highest homocide rates in the world. 82% of the country lives in extreme poverty.&nbsp;</p>
+
+
+
+<p>In 2018, only 13% of the population with HIV received medicine.</p>
+
+
+
+<p>The condition of the refugees is born in the convention of 1951, as a response to the second world war.&nbsp;</p>
+
+
+
+<p>Declaration of Cartagena. Response to conflicts in Central America.</p>
+
+
+
+<p>More than 20,000 children born in Colombia from Venezuelan parents do not have the nationality, since the Venezuelan consulates have been closed indefinitely. This fact changed recently. </p>
+
+
+
+<p><a href="https://www.nytimes.com/es/2019/08/06/colombia-ciudadania-hijos-venezolanos/?rref=collection%252Fsectioncollection%252Fnyt-es">https://www.nytimes.com/es/2019/08/06/colombia-ciudadania-hijos-venezolanos/?rref=collection%2Fsectioncollection%2Fnyt-es</a></p>
+
+
+
+<p>We ask ourelves:</p>
+
+
+
+<p>And what can be done in the arts?</p>
+
+
+
+<p>Ideas come up, such as these:</p>
+
+
+
+<p>To take the thought and its logics over to the other side.</p>
+
+
+
+<p>To generate spaces of empathy.</p>
+
+
+
+<p>Art</p>
+
+
+
+<p>as a complement to the political and apolitical human.&nbsp;</p>
+
+
+
+<p>as a means of relief.</p>
+
+
+
+<p>as a space for reflection and breathing.</p>
+
+
+
+<p>We spoke of a utopic proposal, of building a space in which there are no borders. I think of the concept of TAZ by Hakim Bey <a href="https://en.wikipedia.org/wiki/Temporary_Autonomous_Zone">https://en.wikipedia.org/wiki/Temporary_Autonomous_Zone</a>&nbsp;</p>
+
+
+
+<p>Camilo, who works with the community mothers from Bosa in Bogotá, says:</p>
+
+
+
+<p>“You always want to go to Barranquilla, but once you go you start missing your seat”</p>
+
+
+
+<p>shares ideas:&nbsp;</p>
+
+
+
+<p>The border as a limit limits us.</p>
+
+
+
+<p>What does it feel like to lose one’s place?</p>
+
+
+
+<p>The thought as border.</p>
+
+
+
+<p>Fear of territory usurpation.</p>
+
+
+
+<p>Some artist references in the theme</p>
+
+
+
+<p>Enrique Ramírez (Chile)</p>
+
+
+
+<figure class="wp-block-image"><img src="/luvhurts-uploads/2019/10/Screen-Shot-2019-10-09-at-19.30.28.png" alt="" class="wp-image-1987"/></figure>
+
+
+
+<p>Crossing a Wall is a movie, inspired by article 13 of the Universal Declaration of Human Rights, which affirms that “All people have the right to leave any country, including their own, and to return to their country.” In this movie, a waiting room, a public workshop on migration issues, located “somewhere,” are scenarios that converge all  human aspirations of our time… The waiting, the conviction, the desire and the right that everyone has to dream. , traveling, crossing, the liberty of movement and of residency at the border of each state, or the right to return to their country of origin … All of this is represented metaphorically in a scenario of fiction and reality.</p>
+
+
+
+<p>Olu Oguibe (Nigeria)&nbsp;</p>
+
+
+
+<figure class="wp-block-image"><img src="/luvhurts-uploads/2019/10/Screen-Shot-2019-10-09-at-19.30.36.png" alt="" class="wp-image-1988"/></figure>
+
+
+
+<p>“Monument to Strangers and Refugees”</p>
+
+
+
+<p>Santiago Sierra (Spain)</p>
+
+
+
+<figure class="wp-block-image"><img src="/luvhurts-uploads/2019/10/Screen-Shot-2019-10-09-at-19.30.44.png" alt="" class="wp-image-1989"/></figure>
+
+
+
+<p>“Los penetrados” was divided into eight acts of live sex, each one with a different combination of genders and ethnicities. The idea was to create an artificial world that simulated communities in which processes of mixing have occurred.&nbsp;</p>
+
+
+
+<p>Artur Zmijewski (Poland)</p>
+
+
+
+<figure class="wp-block-image"><img src="/luvhurts-uploads/2019/10/Screen-Shot-2019-10-09-at-19.30.50.png" alt="" class="wp-image-1990"/></figure>
+
+
+
+<p>Liliana Porter (Argentina)</p>
+
+
+
+<figure class="wp-block-image"><img src="/luvhurts-uploads/2019/10/Screen-Shot-2019-10-09-at-19.30.57.png" alt="" class="wp-image-1991"/></figure>
+
+
+
+<p>Hasan Sharif (Dubai)</p>
+
+
+
+<figure class="wp-block-image"><img src="/luvhurts-uploads/2019/10/Screen-Shot-2019-10-09-at-19.31.04.png" alt="" class="wp-image-1992"/></figure>
+
+
+
+<p><em>Sandalias y cable</em>, 2009</p>
+
+
+
+<p>Teresa Margolles (Mexico),</p>
+
+
+
+<figure class="wp-block-image"><img src="/luvhurts-uploads/2019/10/Screen-Shot-2019-10-09-at-19.31.14.png" alt="" class="wp-image-1993"/></figure>
+
+
+
+<p>The Mexican artist Teresa Margolles proposes a profound reflection on the drama of macho violence, looking at Bolivia and Mexico, with the exhibition “Sobre la sangre.”</p>
+
+
+
+<p>Mario Opazo (Colombia)&nbsp;</p>
+
+
+
+<figure class="wp-block-image"><img src="/luvhurts-uploads/2019/10/Screen-Shot-2019-10-09-at-19.31.22.png" alt="" class="wp-image-1994"/></figure>
+
+
+
+<p>MAPA MUNDO | 2016 | SCULPTURAL INTERVENTION</p>
+
+
+
+<p>Daniel Santiago Salguero (Colombia)</p>
+
+
+
+<figure class="wp-block-image"><img src="/luvhurts-uploads/2019/10/Screen-Shot-2019-10-09-at-19.31.30.png" alt="" class="wp-image-1995"/></figure>
+
+
+
+<p>Convention of territories and displacements. 2012</p>
+
+
+
+<p>At the hands of a human rights lawyer, we wrote out a fictitious text in which it is declared that in the year of 2046 all of the inhabitants of earth will be able to move freely through terrestrial territory and assume, as a place of residency, the place of his/her choice, without the necessity of visas or permits. The text was printed out on a board and placed in Bogotá’s public space. Here I turn to fictions and to time games in order to give it the possibility of being something that, during our current time, appears absolutely ridiculous. This project responds to the feeling of impotence of millions of people to whom mobility between countries is denied.&nbsp;</p>
+</div></div><div class="post-next"><div class="post-tag-container"> </div><a href="../relatoria-sesion-5-arte-tecnologia/index.html"><svg width="57" height="24" fill="none"><path d="M56.06 13.06a1.5 1.5 0 000-2.12l-9.545-9.547a1.5 1.5 0 10-2.122 2.122L52.88 12l-8.486 8.485a1.5 1.5 0 102.122 2.122l9.546-9.546zM0 13.5h55v-3H0v3z" fill="#d0f63c"></path></svg></a></div></article></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/relatoria-sesion-4-arte-fronteras/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-3a024f7dc0c551049216.js"],"app":["/app-5d1f25097fc46a42ca8c.js"],"component---src-pages-404-js":["/component---src-pages-404-js-0e6bb37ad146733cc7f9.js"],"component---src-pages-ankh-js":["/component---src-pages-ankh-js-ca075ffd0cb147a06272.js"],"component---src-pages-firefly-js":["/component---src-pages-firefly-js-02cabdc5a4b7edc1a885.js"],"component---src-pages-heart-js":["/component---src-pages-heart-js-ba45ac174e6c075a342a.js"],"component---src-pages-hummingbird-js":["/component---src-pages-hummingbird-js-34b97b14de80796f5509.js"],"component---src-pages-index-js":["/component---src-pages-index-js-f1c5a3aecb288c8c719d.js"],"component---src-pages-leaf-js":["/component---src-pages-leaf-js-5e23d490a088bb8363be.js"],"component---src-pages-spaceship-js":["/component---src-pages-spaceship-js-fc62f0e0e533976ad920.js"],"component---src-templates-index-js":["/component---src-templates-index-js-2932c8dd42d86e9373ac.js"],"component---src-templates-single-page-js":["/component---src-templates-single-page-js-1b0431f2e5ee837e8ee2.js"],"component---src-templates-single-post-js":["/component---src-templates-single-post-js-b475fe98ec991257b7ef.js"]};/*]]>*/</script><script src="../polyfill-3a024f7dc0c551049216.js" nomodule=""></script><script src="../component---src-templates-single-post-js-b475fe98ec991257b7ef.js" async=""></script><script src="../ccd757bf9950c2cee606708818beb9ace981f76f-1eeec8863f0242150bea.js" async=""></script><script src="../styles-407fe62976dc5310c43e.js" async=""></script><script src="../app-5d1f25097fc46a42ca8c.js" async=""></script><script src="../framework-c343874b8a4718d4c3e1.js" async=""></script><script src="../webpack-runtime-9986efa098f82a8f6ee0.js" async=""></script></body></html>

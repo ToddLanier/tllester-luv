@@ -1,0 +1,71 @@
+[build]
+  publish = "."
+  # No build command — this is a pre-built static mirror
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Gatsby uses trailing-slash URLs — ensure they resolve correctly
+[[redirects]]
+  from = "/about"
+  to = "/about/"
+  status = 301
+
+[[redirects]]
+  from = "/symbology"
+  to = "/symbology/"
+  status = 301
+
+[[redirects]]
+  from = "/research"
+  to = "/research/"
+  status = 301
+
+[[redirects]]
+  from = "/exquisite-corpse"
+  to = "/exquisite-corpse/"
+  status = 301
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact/"
+  status = 301
+
+[[redirects]]
+  from = "/heart"
+  to = "/heart/"
+  status = 301
+
+[[redirects]]
+  from = "/leaf"
+  to = "/leaf/"
+  status = 301
+
+[[redirects]]
+  from = "/spaceship"
+  to = "/spaceship/"
+  status = 301
+
+[[redirects]]
+  from = "/firefly"
+  to = "/firefly/"
+  status = 301
+
+[[redirects]]
+  from = "/hummingbird"
+  to = "/hummingbird/"
+  status = 301
+
+[[redirects]]
+  from = "/ankh"
+  to = "/ankh/"
+  status = 301
