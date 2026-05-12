@@ -35,6 +35,7 @@ No build command. No Node. No Gatsby. No WordPress dependency.
 ## Site structure
 
 Pages (as of May 2026):
+
 - /                    → index.html
 - /about/              → about/index.html
 - /symbology/          → symbology/index.html
