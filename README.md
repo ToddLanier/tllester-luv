@@ -51,6 +51,19 @@ Pages (as of May 2026):
 
 Assets: static/ directory (images, SVGs)
 
+## SEO (run after every scrape)
+
+A wget scrape strips the dynamic Gatsby `<head>`, so the static HTML ships with no
+canonical, description, or `og:url`. Run:
+
+```bash
+python3 seo-mirror.py
+```
+
+This injects a per-page `<link rel="canonical">`, `og:url`, and description into every
+`index.html`, and regenerates `robots.txt` + `sitemap.xml`. It is idempotent and **must
+be re-run after any fresh scrape** (a scrape overwrites the HTML and wipes the tags).
+
 ## Note on luvhurts.co
 
 The "Archive" nav link points to luvhurts.co — a separate site. That is NOT included
